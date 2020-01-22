@@ -18,8 +18,3 @@ task1(Target):-calc(Target,[1,2,3,4,5,6,7,8,9],_). % use of _ to supress Backtra
 
 ?- print("Task 1"),nl,bagof(_,task1(100),_). % Show all solutions
 
-% Task2 
-% day_seq(1,_,[]).
-% day_seq(NextVal,PrevVal,BT) :- NextVal is PrevVal *2, PrevVal < 100 , day_seq(PrevVal,_,BT).
-% day_seq(NextVal,PrevVal,BT) :- NextVal is PrevVal +1, PrevVal < 100 , day_seq(PrevVal,_,BT).
-
