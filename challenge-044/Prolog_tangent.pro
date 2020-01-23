@@ -1,3 +1,5 @@
+% -*- prolog -*- 
+
 % Task 1
 perm_sum( X, [X],  ['+',X]). % Running total, Item, Backtrace
 perm_sum(-X, [X],  ['-',X]).
