@@ -1,3 +1,4 @@
+% Perl weekly challenge 44 response in Prolog
 % -*- prolog -*- 
 
 % Task 1
